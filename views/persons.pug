@@ -1,0 +1,12 @@
+html
+	body
+		table(border="1")
+			tr
+				th Name
+				th Age
+				th Nationality
+			each item in data
+				tr
+					td=item.name
+					td=item.age
+					td=item.nationality
